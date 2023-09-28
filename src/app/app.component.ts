@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basico1';
+  listas = ['Input','Menu','Number','Title'];
 }
