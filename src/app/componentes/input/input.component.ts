@@ -7,5 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class InputComponent {
   @Input() cabecalho:string="";
+  @Input() Id:string="";
+
+
+
 
 }

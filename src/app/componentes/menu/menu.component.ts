@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class MenuComponent {
 listas = [
      {label:'Home',url:'/',logo:'home.png'},
-     {label:'Input',url:'frm-input',logo:'input.png'},
-     {label:'Menu',url:'/frm-Menu',logo:'menu.png'},
-     {label:'Number',url:'/frm-number',logo:'input.png'},
-     {label:'Title',url:'/frm-title',logo:'title.png'}
+     {label:'app-Input',url:'/frm-input',logo:'input.png'},
+     {label:'app-Menu',url:'/frm-Menu',logo:'menu.png'},
+     {label:'app-Number',url:'/frm-number',logo:'input.png'},
+     {label:'app-title',url:'/frm-title',logo:'title.png'}
 ]
 }
 
