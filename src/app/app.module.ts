@@ -14,6 +14,7 @@ import { HeaderComponent } from './features/header/header.component';
 import { FrmMenuComponent } from './features/frm-menu/frm-menu.component';
 import { FrmNumberComponent } from './features/frm-number/frm-number.component';
 import { FrmTitleComponent } from './features/frm-title/frm-title.component';
+import { TemplatePrincipalComponent } from './templates/template-principal/template-principal.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FrmTitleComponent } from './features/frm-title/frm-title.component';
     HeaderComponent,
     FrmMenuComponent,
     FrmNumberComponent,
-    FrmTitleComponent
+    FrmTitleComponent,
+    TemplatePrincipalComponent
   ],
   imports: [
     BrowserModule,

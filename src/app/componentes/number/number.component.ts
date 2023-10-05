@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class NumberComponent {
   @Input() cabecalho!:string;
+  @Input() Id:string="";
 }
