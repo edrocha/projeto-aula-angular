@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   texto : string = "Ola pessoal ";
   valor:number=100;
+
+  mostra:boolean = false;
+
+
+  salvar(){
+     this.mostra = true;
+  }
 }
